@@ -1,0 +1,74 @@
+body{
+	background:#000;
+}
+
+#Scene{
+	position:fixed;
+	width:100%;
+	height:700px;
+	margin-top:-350px;
+	top:50%;
+}
+
+.parallax-layer{
+	position:absolute;
+	height:700px;
+	background-repeat:no-repeat;
+}
+
+#bg1{
+	background:url('../images/bg-1.jpg');
+	width:3528px;
+}
+
+#bg2{
+	background:url('../images/bg-2.png') left bottom;
+	width:1600px; 
+}
+
+#sun{
+	position:absolute;
+	background:url('../images/sun.png');
+	width:194px;
+	height:194px;
+	left:180px;
+}
+
+#cloud{
+	position:absolute;
+	background:url('../images/clouds.png');
+	width:2059px;
+	height:347px;
+}
+
+#zombie{
+	position:absolute;
+	background-image:url('../images/zombify.png');
+	width:250px;
+	height:300px;
+	
+}
+
+.people_eyes{width:1000px; position: absolute;
+
+height: 350px;
+top:50%;
+margin-top: -300px;
+left: 50%;
+margin-left: -500px;
+}
+
+.people_eyes ul img{ position:relative!important;}
+
+.uk{position: absolute;
+ height:800px!important;
+top: 50%;
+margin-top: -400px;
+}
+
+.foot_div{position: absolute; height:400px!important; width: 1000px;top:60%;left: 50%; margin-left: -500px; margin-top: -200px;}
+.foot_div a{width:400px; font-size: 30px; line-height: 65px; text-align: center; font-family: "微软雅黑","黑体"; height: 65px; float: left; margin: 50px 50px 20px 50px ; position: static!important; color: #fff; background-color:#e95644;}
+.foot_div a:hover{background-color: #333;}
+.black{color: #333!important}
+
+.z-in{z-index: 999;}

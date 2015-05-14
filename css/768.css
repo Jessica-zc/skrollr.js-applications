@@ -1,0 +1,244 @@
+@media screen and (max-height:3000px) {
+
+	#intro .wave{
+		height: 100px;
+	}
+
+	#intro .wave.alt{
+	  height: 80px;   
+	}
+
+	#intro li.wave:nth-child(1){
+	  bottom: 50%;
+	  margin-bottom: -300px;
+	}
+
+	#intro li.wave:nth-child(2){
+		bottom: 50%;
+	  margin-bottom: -321px;
+	}
+
+	#intro li.wave:nth-child(3){
+		bottom: 50%;
+	  margin-bottom: -320px;
+	}
+
+	#intro li.wave:nth-child(4){
+		bottom: 50%;
+	  margin-bottom: -350px;
+	}
+	#intro li.wave:nth-child(5){
+		bottom: 50%;
+		height: 2000px;
+	  margin-bottom: -2350px;
+	  background-color: #30a0c8;
+	 
+	  background-image:  none;
+	}
+
+	#intro .title, #intro2 .title, #intro3 .title, #outro .title {
+		top: 50%;margin-top: -250px;
+	}
+
+	#intro .title.main, #intro2 .title.main, #intro3 .title.main, #outro .title.main {
+		top: 5%;
+	}
+
+	#intro2 .airplane, #intro3 .airplane {
+		top: 35%;
+	}
+	
+	#outro .title.three {
+		top: 87%;
+	}
+
+	#labour-party .scene1 .ellipse {
+		top: 50%;
+	}
+
+	#labour-party .scene4 .parliament {
+		height: 900px;
+		top: 50%;
+		margin-top:-200px;
+	}
+
+	#labour-party .scene4 .people-list {
+		margin: 50px 0 -330px -500px;
+	}
+
+	#labour-party .scene5 .uk {
+		top: 50%;
+	}
+
+	#labour-party .scene5 .title {
+		top: 25%;
+	}
+
+	#labour-party .scene5 .counter {
+		top: 25%;
+		margin: 169px 0 0 0;
+	}
+
+	#labour-party .scene5 .title.two {
+		top: 25%;
+		margin-top: 290px;
+	}
+
+	#labour-party .scene5 .title.three {
+		top: 35%;
+	}
+
+	#labour-party .scene5 .title.four {
+		top: 35%;
+		margin-top: 110px;
+	}
+	#labour-party .scene5 .monitor {
+		position: absolute;
+		top: 52%;
+		margin-top: -12px;
+	}
+	#labour-party .scene6 .title {
+		top: 15%;
+	}
+
+	#labour-party .scene6 ul.voters {
+		top: 60%;
+	}
+
+	#labour-party .scene7 .comunicate {
+		top: 60%;
+	}
+
+	#labour-party .scene7 .title {
+		top: 60%;
+		margin: -58px 0 0 0;
+	}
+
+	#labour-party .scene8 > ul > li .title {
+		font-size: 21px;
+		line-height: 27px;
+		bottom: 10px;
+	}
+
+	#labour-party .scene8 > ul > li {
+		height: 280px;
+	}
+
+	#labour-party .scene8 > ul {
+		top: 65%;
+	}
+
+	#marriage-equality .people-stand, #marriage-equality .people-move {
+		margin-top: -115px;
+	}
+
+	#marriage-equality .scene2 .title {
+		margin-top: -5%;
+		z-index: 999;
+		 text-align: left;
+	}
+
+
+	#marriage-equality .scene3 .title {
+		
+		z-index: 999;
+	}
+
+	#marriage-equality .scene3 .us-map .line-ri {
+		margin-top: -65px;
+		-moz-transform: scaleY(-1);
+        -o-transform: scaleY(-1);
+        -webkit-transform: scaleY(-1);
+        transform: scaleY(-1);
+        filter: FlipV;
+        -ms-filter: "FlipV";
+	}
+
+	#marriage-equality .scene3 .us-map .line-eq {
+		margin-top: -35px;
+		left: 358px;
+	} 
+
+	#marriage-equality .scene3 .us-map {
+		position: absolute;
+		top: 80px;
+	}
+
+	#marriage-equality .scene4 .computers {
+		top: 50%;
+		margin-top: -60px;
+		z-index: 0;
+		padding: 0;
+	}
+
+	#marriage-equality .scene4 .computers ul {
+		margin: 0;
+	}
+
+	#marriage-equality .scene4 .icons img {
+		width: 90px;
+	}
+
+	#marriage-equality .scene4 .icons div.left img {
+		width: 60px;
+	}
+
+	#marriage-equality .scene4 .icons p {
+		margin: 10px 0;
+	}
+
+	#marriage-equality .scene4 .icons {
+		top: 75%;
+	}
+
+	#marriage-equality .scene5 .people {
+		top: 50%;
+		margin-top: -100px;
+	}
+
+	#marriage-equality .scene8 .vote1 {
+		top: 60%;
+	}
+
+	#marriage-equality .scene8 .vote2 {
+		top: 60%;
+	}
+
+	#marriage-equality .scene9 .title {
+		z-index: 999;
+	}
+
+
+#bitcoins .scene2 ul.comunity {
+	top: 70%;
+}
+#bitcoins .scene2 > ul {
+	top: 60%;
+}
+#bitcoins .scene3 > ul > li{
+  width:284px;
+  height:280px;
+}
+#bitcoins .scene3 > ul > li img{
+  margin-top:20px;
+}
+
+#bitcoins .scene3 > ul > li .title{
+  margin-top:200px;
+}
+
+#bitcoins .scene3 > ul > li .title p{
+  font-size:20px;
+  line-height: 25px;
+  padding: 0 20px;
+}
+
+#bitcoins .scene3 > ul > li .title p.main-title{
+	margin-top: 10px;
+}
+
+#bitcoins .scene3 .map-container .map{
+	margin-top: 100px;
+}
+
+}
